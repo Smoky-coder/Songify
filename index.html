@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Songify | Listen to your favs!</title>
+    <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+</head>
+<body>
+
+
+    <!-- header -->
+    <header>
+        <nav>
+            <div class="left">
+                <a href="/index.html"><img src="/images/logo1.png" alt="logo" class="logo"></a>
+            </div>
+            <div class="right">
+                <ul>
+                    <a href="/npage.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="/npage">
+                        <li>Suggest your song</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- header -->
+
+    <!-- main text -->
+    <main>
+        <section class="main-text main-left">
+            <div>Welcome to</div>
+            <div id="mtext">Songify</div>
+            <div>Here <span class="you">you</span> can,</div>
+            <span id="element"></span>
+        </section>
+
+        <section class="songlist">
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/37i9dQZEVXbMWDif5SCBJq?utm_source=generator&theme=0"
+                width="110%" height="452" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+            </iframe>
+        </section>
+    </main>
+
+</body>
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+    data-id="smokyuser" data-description="Support me on Buy me a coffee!"
+    data-message="Thank you for visiting this site, Support me by BUYING ME A COFFEE." data-color="#40DCA5"
+    data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<!-- Load library from the CDN -->
+<!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
+
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Listen. 🎧', 'Vibe. 😎', 'Tune. 🎵'],
+        typeSpeed: 50,
+    });
+</script>
+</body>
+
+</html>
