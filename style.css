@@ -130,6 +130,7 @@ iframe {
     font-weight: 600;
     background: #52086b;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn:hover {
